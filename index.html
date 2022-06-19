@@ -17,27 +17,32 @@
 <body class="home">
     <header id="home-header">
         <nav>
-            <div class="nav-logo">
-                <a href="index.html">
-                    <img src="images/logo.svg" alt="huddle-logo">
-                </a>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a class="btn" href="">Try it free</a></li>
-                </ul>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="nav-logo col-sm-6">
+                        <a href="index.html">
+                            <img class="img img-resp" src="images/logo.svg" alt="huddle-logo">
+                        </a>
+                    </div>
+                    <div class="nav-links col-sm-6 text-right">
+                        <ul>
+                            <li><a class="btn btn-white" href="">Try it free</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
-        <div class="container">
+
+        <div class="container pt-0  text-center">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="home-header-content">
-                        <h1>Build the community your friends will love</h1>
-                        <p>
+                        <h1>Build the community your fans will love</h1>
+                        <p class="text-500">
                             Huddle re-Imagines the way we build communities. You have a voice, but so do your audience.
                             Create connections with your users as you engage in genuine discussion.
                         </p>
-                        <div class="home-header-btn">
+                        <div class="home-header-btn mt-4">
                             <a class="btn btn-primary" href="">Get started for free</a>
                         </div>
                     </div>
@@ -52,7 +57,7 @@
     </header>
 
     <main id="home-main">
-        <div class="container">
+        <div class="container text-center card">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- image -->
@@ -61,8 +66,7 @@
                     </div>
                     <div class="home-main-content">
                         <h2>
-                            <span>Huddle</span> is a community platform for teams and organizations to connect, share,
-                            and work together.
+                            Grow Together
                         </h2>
                         <p>
                             Huddle is a platform for teams and organizations to connect, share, and work together.
@@ -74,7 +78,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container text-center card">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- image -->
@@ -84,8 +88,7 @@
                     </div>
                     <div class="home-main-content">
                         <h2>
-                            <span>Huddle</span> is a community platform for teams and organizations to connect, share,
-                            and work together.
+                            Flowing Conversations
                         </h2>
                         <p>
                             Huddle is a platform for teams and organizations to connect, share, and work together.
@@ -97,7 +100,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container text-center card">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- image -->
@@ -106,8 +109,7 @@
                     </div>
                     <div class="home-main-content">
                         <h2>
-                            <span>Huddle</span> is a community platform for teams and organizations to connect, share,
-                            and work together.
+                            Your Users
                         </h2>
                         <p>
                             Huddle is a platform for teams and organizations to connect, share, and work together.
@@ -118,6 +120,25 @@
                 </div>
             </div>
         </div>
+
+        <div class="container text-center card">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="home-main-content">
+                        <!-- call to action -->
+                        <div class="home-main-cta">
+                            <h2>
+                                Ready to get started
+                            </h2>
+                            <div class="home-main-cta-btn mt-2">
+                                <a class="btn btn-primary" href="">Get started for free</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer class="footer" id="home-footer">
@@ -125,37 +146,26 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="home-footer-content">
-                        <p>
-                            <span>Huddle</span> is a community platform for teams and organizations to connect, share,
-                            and work together.
-                        </p>
-                        <div class="home-footer-btn">
-                            <a class="btn btn-primary" href="">Get started for free</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="home-footer-content">
                         <div class="home-footer-logo">
                             <a href="index.html">
-                                <img src="images/logo.svg" alt="huddle-logo">
+                                <img src="images/logo-footer.svg" alt="huddle-logo">
                             </a>
                         </div>
-                        <div class="home-footer-location">
-                            <ion-icon name="location"></ion-icon>
-                            <span>
+                        <div class="home-footer-location d-flex pt-2">
+                            <ion-icon size="large" name="location"></ion-icon>
+                            <span class="pl-2">
                                 loriem ipsum dolor sit amet consectetur adipisicing elit.
                             </span>
                         </div>
                         <!-- fone -->
-                        <div class="home-footer-phone">
-                            <ion-icon name="call"></ion-icon>
-                            <span> +1-555-555-5555</span>
+                        <div class="home-footer-phone d-flex pt-2">
+                            <ion-icon size="large" name="call"></ion-icon>
+                            <span class="pl-2"></span> +1-555-555-5555</span>
                         </div>
                         <!-- email -->
-                        <div class="home-footer-email">
-                            <ion-icon name="mail"></ion-icon>
-                            <span> example@fylo.com</span>
+                        <div class="home-footer-email d-flex pt-2">
+                            <ion-icon size="large" name="mail"></ion-icon>
+                            <span class="pl-2"> example@fylo.com</span>
                         </div>
                     </div>
                 </div>
@@ -163,28 +173,28 @@
                     <div class="home-footer-content">
                         <div class="home-footer-email-links">
                             <ul>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">What we do</a></li>
-                                <li><a href="">FAQ</a></li>
-                                <li><a href="">Career</a></li>
-                                <li><a href="">Contact us</a></li>
+                                <li class="m-list-item"><a class="m-link" href="">About us</a></li>
+                                <li class="m-list-item"><a class="m-link" href="">What we do</a></li>
+                                <li class="m-list-item"><a class="m-link" href="">FAQ</a></li>
+                                <li class="m-list-item"><a class="m-link" href="">Career</a></li>
+                                <li class="m-list-item"><a class="m-link" href="">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12">
-                    <div class="home-footer-content">
+                    <div class="home-footer-content text-center">
                         <!-- socila links -->
                         <div class="home-footer-social-links">
-                            <ul>
-                                <li><a href="">
-                                        <ion-icon name="logo-facebook"></ion-icon>
+                            <ul class="d-flex d-flex-j-center">
+                                <li class="m-list-item"><a href="">
+                                        <ion-icon size="large" name="logo-facebook"></ion-icon>
                                     </a></li>
-                                <li><a href="">
-                                        <ion-icon name="logo-twitter"></ion-icon>
+                                <li class="m-list-item"><a href="">
+                                        <ion-icon size="large" name="logo-twitter"></ion-icon>
                                     </a></li>
-                                <li><a href="">
-                                        <ion-icon name="logo-instagram"></ion-icon>
+                                <li class="m-list-item"><a href="">
+                                        <ion-icon size="large" name="logo-instagram"></ion-icon>
                                     </a></li>
                             </ul>
                         </div>
@@ -193,12 +203,12 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="home-footer-content">
                         <div class="home-footer-copyright">
-                            <p>
+                            <p class="text-light">
                                 <span>&copy;</span> Copyright 2018 Huddle. All rights reserved.
                             </p>
                         </div>
