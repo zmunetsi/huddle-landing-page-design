@@ -176,3 +176,24 @@ color: hsl(208, 11%, 55%)
     padding: 0.6em 0;
 }
 
+/* desktop */
+@media (min-width: 992px) {
+    
+    #home-header{
+        background-image: url(../images/bg-hero-desktop.svg);
+    }
+
+    .col-md-6{
+        width: 50%;
+    }
+
+    .col-md-4{
+        width: 33.33333333%;
+    }
+
+    .d-flex-reverse{
+        flex-direction: row-reverse;
+    }
+
+}
+
